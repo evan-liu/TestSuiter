@@ -1,0 +1,20 @@
+h1. Test suite generator for Flex Unit 4
+
+Create AllTests.as file with all test cases for Flex Unit 4.
+
+h2. How to use
+
+* Install the air file.
+* Call it (directly or via ant).
+
+h2. Demo ant code
+
+<pre>
+  <project name="Test Suiter" default="createSuite">
+    <target name="createSuite">
+      <exec executable="/Applications/TestSuiter.app/Contents/MacOS/TestSuiter">
+        <arg value="/Users/someone/Desktop/SomeProject/tests" />
+      </exec>
+    </target>
+  </project>
+</pre>
