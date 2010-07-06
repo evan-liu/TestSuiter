@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009"
+         xmlns:s="library://ns.adobe.com/flex/spark"
+         xmlns:mx="library://ns.adobe.com/flex/mx" width="400" height="100">
+    <s:TextInput id="pathInput" x="10" y="39" width="380"/>
+    <s:Button id="createButton" x="10" y="69" label="Create"/>
+    <s:Label x="10" y="12" text="Test Suite generator for Flex Unit 4" width="380" verticalAlign="bottom" fontSize="20" fontFamily="Verdana"/>
+    <s:Button x="320" y="69" label="Browse" id="browseButton"/>
+</s:Group>
